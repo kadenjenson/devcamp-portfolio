@@ -1,8 +1,8 @@
 class Portfolio < ApplicationRecord
+  has_many :technologies
   include Placeholder
   validates_presence_of :title, :body, :main_image, :thumb
 
-#This is how to create scopes
   def self.angular
     where(subtitle: 'Angular')
   end
