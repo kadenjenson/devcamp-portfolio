@@ -16,4 +16,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    KadoViewer::Renderer.copyright 'Kaden Jenson', 'All rights reserved'
+  end
+
 end
