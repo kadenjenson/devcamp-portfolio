@@ -57,3 +57,5 @@ gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 gem 'kado_viewer', '~> 0.1.0'
+
+gem 'petergate', '~> 1.8'
