@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" data-id="<%= portfolio_item.id %>">
   <%= image_tag portfolio_item.thumb unless !portfolio_item.thumb.nil? %>  
   <%= image_tag portfolio_item.main_image if !portfolio_item.main_image.nil?%>
   <p class="card-text">
