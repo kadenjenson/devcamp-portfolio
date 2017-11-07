@@ -2,6 +2,11 @@
 @import "font-awesome";
 @import "gritter";
 
+@font-face {
+  font-family: 'PT Sans';
+  src:font-url('PT_Sans-Web-Regular.ttf')
+}
+
 /*
  * Globals
  */
@@ -13,7 +18,7 @@
 }
 
 body {
-  font-family: 'Dosis', sans-serif;;
+  font-family: 'PT Sans', sans-serif;
   color: #555;
 }
 
@@ -23,7 +28,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: normal;
   color: #333;
 }
