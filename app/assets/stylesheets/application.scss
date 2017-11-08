@@ -128,6 +128,7 @@ h6, .h6 {
 .cover {
   padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: bold;
@@ -150,11 +151,10 @@ h6, .h6 {
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 0;
   }
+
   .mastfoot {
-    position: fixed;
     bottom: 0;
   }
   /* Start the vertical centering */
@@ -249,7 +249,7 @@ h6, .h6 {
 }
 
 .app-card-container > .card {
-  paddding: 40px;
+  padding: 40px;
 }
 
 .profile-img {

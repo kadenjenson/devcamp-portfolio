@@ -16,30 +16,28 @@
   </head>
 
   <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
+    <%= render "shared/application_nav" %>
+      <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+          <div class="cover-container">
 
-        <%= video_tag(
-          'TestingVideo.mp4',
-          id: 'background',
-          autoplay: true,
-          loop: true,
-          muted: true,
-          poster: 'Background.jpg'
-          )
-          %>
+          <%= video_tag(
+            'TestingVideo.mp4',
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'Background.jpg'
+            )
+            %>
 
-        <%= render "shared/application_nav" %>
+          <%= yield %> 
 
-        <%= yield %>
+          <%= alerts %>
 
-        <%= render "shared/application_footer" %>
-
-        <%= alerts %>
-
+          </div>
         </div>
       </div>
-    </div>
+     <%= render "shared/application_footer" %>
   </body>
 </html>
