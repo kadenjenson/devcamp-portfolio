@@ -1,7 +1,23 @@
-<div class="<%= location %>">
-  <div><%= link_to "Home", root_path %></div>
-  <div><%= link_to "About", about_me_path %></div>
-  <div><%= link_to "Contact", contact_path %></div>
-  <div><%= link_to "Blogs", blogs_path %></div>
-  <div><%= link_to "Portfolios", portfolios_path %></div>
-</div>
+<nav class="navbar fixed-top navbar-dark bg-faded text">
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 py-4">
+          <ul class="list-unstyled">
+            <%= nav_helper 'text-white', 'li' %>
+            <li><%= login_helper 'text-white' %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar navbar-dark bg-dark">
+    <div class="container justify-content-between">
+      <a href="#" class="navbar-brand">Kaden Jenson</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</nav>

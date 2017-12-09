@@ -36,6 +36,7 @@ html,
 body {
   height: 100%;
   font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
 }
 
 body {
@@ -270,7 +271,9 @@ h6, .h6 {
   margin-bottom: 10px;
 }
 
-
+.text {
+  text-align: left;
+}
 
 
 
