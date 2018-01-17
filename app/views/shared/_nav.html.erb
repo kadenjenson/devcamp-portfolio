@@ -1,23 +1,11 @@
-<nav class="navbar fixed-top navbar-dark bg-faded text">
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 py-4">
-          <ul class="list-unstyled">
-            <%= nav_helper 'text-white', 'li' %>
-            <li><%= login_helper 'text-white' %></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- <nav class="navbar fixed-top navbar-dark bg-dark text">
+  <ul class="navbar-nav" id="line-up">
+    <li><%= nav_helper 'text-white nav-items', 'li' %></li>
+    <li><%= login_helper 'text-white' %></li>
+  </ul>
+</nav> -->
 
-  <div class="navbar navbar-dark bg-dark">
-    <div class="container justify-content-between">
-      <a href="#" class="navbar-brand">Kaden Jenson</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
+<nav class="navbar navbar-dark bg-dark fixed-top line-up" id="links">
+  <%= nav_helper 'text-white', 'li' %>
+  <li><%= login_helper 'text-white' %></li>
 </nav>

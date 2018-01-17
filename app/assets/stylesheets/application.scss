@@ -271,10 +271,16 @@ h6, .h6 {
   margin-bottom: 10px;
 }
 
-.text {
-  text-align: left;
+#links li {
+  align-items: left;
+  padding: 10px;
 }
 
+.line-up {
+  width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+}
 
 
 
